@@ -1,5 +1,6 @@
 
 import Link from "next/link"
+import { JSX, SVGProps } from "react"
 
 export default function Component() {
   return (
@@ -25,7 +26,7 @@ export default function Component() {
   )
 }
 
-function BarChartIcon(props) {
+function BarChartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}

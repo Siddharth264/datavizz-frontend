@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Separator } from "@/components/ui/separator"
 import { Input } from "@/components/ui/input"
+import { JSX, SVGProps } from "react"
 
 
 export default function LeftBar() {
@@ -50,7 +51,7 @@ export default function LeftBar() {
   )
 }
 
-function BarChartIcon(props) {
+function BarChartIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -72,7 +73,7 @@ function BarChartIcon(props) {
 }
 
 
-function FilesIcon(props) {
+function FilesIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -94,7 +95,7 @@ function FilesIcon(props) {
 }
 
 
-function HomeIcon(props) {
+function HomeIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -115,7 +116,7 @@ function HomeIcon(props) {
 }
 
 
-function InfoIcon(props) {
+function InfoIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -137,7 +138,7 @@ function InfoIcon(props) {
 }
 
 
-function MenuIcon(props) {
+function MenuIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -159,7 +160,7 @@ function MenuIcon(props) {
 }
 
 
-function SettingsIcon(props) {
+function SettingsIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
@@ -180,7 +181,7 @@ function SettingsIcon(props) {
 }
 
 
-function TimerIcon(props) {
+function TimerIcon(props: JSX.IntrinsicAttributes & SVGProps<SVGSVGElement>) {
   return (
     <svg
       {...props}
